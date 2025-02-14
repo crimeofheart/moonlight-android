@@ -52,5 +52,5 @@ jobs:
     - name: Upload APK
       uses: actions/upload-artifact@v4.3.1
       with:
-        name: Moonlight APK
+        name: Moonlight APK 
         path: app-nonRoot-release-signed.apk
